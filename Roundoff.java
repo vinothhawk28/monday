@@ -10,6 +10,10 @@ public static void main(String[] args) {
 	if(s>=0.1){
 		d=(int)a+1;
 	System.out.println(d);	}
+	else if(s<=0.1){
+		d=(int)a-1;
+		System.out.println(d);
+	}
 	else{
 		d=(int)a;
 		System.out.println(d);
